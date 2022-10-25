@@ -70,15 +70,15 @@ echo "Especificando permissões dos diretórios...."
 
 chown root:GRP_ADM /adm
 chmod 770 /adm
-ls - l /home/adm
+cat /etc/group |grep GRP_ADM
 sleep 4
 chown root:GRP_VEN /ven
 chmod 770 /ven
-ls - l /home/ven
+cat /etc/group |grep GRP_VEN
 sleep 4
 chown root:GRP_SEC /sec
 chmod 770 /sec
-ls - l /home/ven
+cat /etc/group |grep GRP_SEC
 sleep 4
 
 chmod 777 /publico
