@@ -34,45 +34,36 @@ echo "Criando usuários do grupo ADM... "
 
 useradd carlos -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_ADM
 echo "Usuário Carlos criado!"
-pwd
 sleep 3
 useradd maria -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_ADM
 echo "Usuário Maria criado!"
-pwd
 sleep 3
 useradd joao -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_ADM
 echo "Usuário João criado!"
-pwd
 sleep 3
 
 echo "Criando usuários do grupo VEN... "
 
 useradd debora -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_VEN
 echo "Usuário Debora criado!"
-pwd
 sleep 3
 useradd sebastiana -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_VEN
 echo "Usuário Sebastiana criado!"
-pwd
 sleep 3
 useradd roberto -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_VEN
 echo "Usuário Roberto criado!"
-pwd
 sleep 3
 
 echo "Criando usuários do grupo SEC... "
 
 useradd josefina -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
 echo "Usuário Josefina criado!"
-pwd
 sleep 3
 useradd amanda -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
 echo "Usuário Amanda criado!"
-pwd
 sleep 3
 useradd rogerio -m -s /bin/bash -p $(openssl passwd -crypt Senha123) -G GRP_SEC
 echo "Usuário Rogerio criado!"
-pwd
 sleep 3
 
 echo "Especificando permissões dos diretórios...."
